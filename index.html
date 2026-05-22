@@ -6,11 +6,14 @@
 -->
 <html>
 	<head>
-		<title>IROS 26 Workshop</title>
-		<meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>IROS 26 Workshop</title>
+    <meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" />
+		<link href="css/bootstrap-4.4.1.css" rel="stylesheet" type="text/css">
+		</noscript>
 	</head>
 	<body class="is-preload">
 
@@ -21,7 +24,7 @@
 					<header id="header" class="alt">
 						<!--<span class="logo"><img src="images/logo.svg" alt="" /></span> -->
 						<h1>	16th Workshop on  <br/>
-						 Planning, Perception and Navigation for Intelligent Vehicles </h1>
+						 Planning, Perception and Navigation for Intelligent Vehicles (PPNIV 2026) </h1>
 						<p>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) 26 <br/>
 						<a href="#" class="icon solid solo fa-calendar-alt"><span class="label">Calender</span></a> &nbsp;Afternoon, 27th Sep.&nbsp;(Sunday), 2026 <br/>
 						<a href="#" class="icon solid solo fa-globe-europe"><span class="label">Location</span></a> Pittsburgh, USA</p>
@@ -151,7 +154,7 @@
 									<table>
 										<thead>
 											<tr>
-												<th>Time (CET)</th>
+												<th>Time (EDT)</th>
 												<th>Talk Title</th>
 												<th>Speaker</th>
 											</tr>
@@ -159,17 +162,27 @@
 										<tbody>
 											<tr>
 												<td>13:30-13:50</td>
-												<td>Keynote Talk 1:&nbsp;Autonomous Vehicles on the Edge: Autonomous Racing</td>
-												<td>Prof. Johannes Betz &nbsp;</td>
+											    <td>Keynote Talk 1:&nbsp;Autonomous Vehicles on the Edge: Autonomous Racing</td>
+											  	<td>Prof. Johannes Betz &nbsp;</td>
 											</tr>
 											<tr>
 												<td>13:50-14:10</td>
-												<td>Keynote Talk 2:&nbsp;Coordination and Harmonization of Vehicles under Mixed Human–Machine Autonomy</td>
+												<td>
+													<details>
+														<summary>Keynote Talk 2:&nbsp;Coordination and Harmonization of Vehicles under Mixed Human–Machine Autonomy</summary>
+														<p>Abstract: This talk presents some recent advances in the coordination and harmonization of ground vehicles operating under mixed human–machine autonomy, where human-driven, partially automated, and fully autonomous vehicles coexist within shared traffic environments. The talk will discuss control, optimization, coordination, and learning frameworks that enable cooperative interactions among heterogeneous agents while accounting for human behavior, uncertainty, and risks. Emphasis will be placed on achieving safe, efficient, and human-compatible mobility through distributed coordination, personalized automation, and traffic-level harmonization strategies. Applications to connected and automated vehicles, intelligent transportation systems, and emerging mobility ecosystems will also be highlighted.</p>
+													</details>
+												</td>
 												<td>Prof. Junmin Wang</td>
 											</tr>
 											<tr>
 												<td>14:10-14:30</td>
-												<td>Keynote Talk 3:&nbsp;Spatial AI for Ground Vehicles &amp; Robots in the Wild</td>
+												<td>
+													<details>
+														<summary>Keynote Talk 3:&nbsp;Spatial AI for Ground Vehicles &amp; Robots in the Wild</summary>
+														<p>Abstract: This talk introduces the latest development of spatial AI-based autonomous navigation technologies for autonomous vehicles such as mobile robots, legged robots, and drones in the wild. The actual cases developed by KAIST Urban Robotics Lab will be introduced. Specifically, we present various spatial AI frameworks for mobile robots, drones, and legged robots in rough terrains. The deep reinforcement learning-based blind locomotion technology called DreamWaQ and DreamWaQ++ will also be included.</p>
+													</details>
+												</td>
 												<td>Prof. Hyun Myung</td>
 											</tr>
 											<tr>
@@ -179,7 +192,12 @@
 											</tr>
 											<tr>
 												<td>14:50-15:10</td>
-												<td>Keynote Talk 5:&nbsp;Safety Research at Waymo</td>
+												<td>
+													<details>
+														<summary>Keynote Talk 5:&nbsp;The Science of Safety: How Waymo Research Advances Trustworthy Autonomous Driving</summary>
+														<p>Abstract: Waymo is committed to advancing the science of autonomous vehicle safety through a multi-faceted research program. This overview will cover our data-driven approaches to comparing the safety performance of the Waymo Driver with human driving, emphasizing the importance of robust benchmarking and statistical methods. We will explore our research into understanding and modeling human behavior in diverse traffic scenarios, which is crucial for developing an autonomous system that can navigate complex social interactions on the road. Additionally, we will discuss our work on risk assessment and how these various research pillars collectively support our efforts to build and validate a trustworthy autonomous system, aligning with our commitment to safety and Vision Zero.</p>
+													</details>
+												</td>
 												<td>Dr. Scott Schnelle</td>
 											</tr>
 											<tr>
@@ -404,13 +422,16 @@
 			</div>
 
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
+			<!-- <script src="assets/js/jquery.min.js"></script> -->
+			<script src="js/jquery-3.4.1.min.js"></script>
 			<script src="assets/js/jquery.scrollex.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+<script src="js/popper.min.js"></script>
+			<script src="js/bootstrap-4.4.1.js"></script>
 
 	</body>
 </html>
